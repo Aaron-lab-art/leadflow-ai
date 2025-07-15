@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useAutomation from '../hooks/useAutomation';
+import useAutomation from "../useAutomation";
 
 export default function LeadDashboard() {
   const { isActive, toggleAutomation } = useAutomation();
